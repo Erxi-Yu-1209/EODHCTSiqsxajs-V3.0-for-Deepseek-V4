@@ -1,8 +1,8 @@
 # EODHCTSiqsxajs Unified OP 1.0
 
-`EODHCTSiqsxajs-Unified-OP.json` is a single SillyTavern Chat Completion preset.
+`EODHCTSiqsxajs-V3.0.json` is a single SillyTavern Chat Completion preset.
 
-The default final reply is Simplified Chinese narrative prose. Provider-returned reasoning is requested and retained separately from the story. No regex removes reasoning, and no completion sentence is needed to find the start of the story.
+The default final reply is English narrative prose. Provider-returned reasoning is requested and retained separately from the story. No regex removes reasoning, and no completion sentence is needed to find the start of the story.
 
 
 ### Prompt build order
@@ -27,12 +27,12 @@ Current explicit user corrections and established world/character facts outrank 
 | Identifier | Effect when enabled | Default |
 | --- | --- | --- |
 | `eod_status_optional` | Factual scene-status code block before the narrative; unknown values stay unknown | Off |
-| `eod_length_optional` | Soft target of roughly 800 Chinese characters for main prose, subordinate to scene and pacing needs | Off |
+| `eod_length_optional` | Soft target of roughly 250 English words for main prose, subordinate to scene and pacing needs | Off |
 | `eod_expressions_optional` | OP's expressions-to-avoid list | Off |
 | `eod_custom_writing` | Editable writing-rule setter | Off / blank |
 | `eod_custom_style` | Editable style-rule setter | Off / blank |
 
-The OP length option uses a Chinese-character target to make its approximate length usable for Chinese prose; it is not an imported mandatory 800-English-word requirement. Enabling the summary module requests a short factual summary of roughly 100 Chinese characters. OP's unrelated style restrictions and status/summary defaults are not forced onto the merged story behavior.
+The optional length target is roughly 250 English words, a soft guideline rather than a requirement. Enabling the summary module requests a short factual summary of roughly 35 English words. The optional status bar uses English labels and “Unknown” for unspecified dates or weather. OP's unrelated style restrictions and status/summary defaults are not forced onto the merged story behavior.
 
 ## Import and use
 
