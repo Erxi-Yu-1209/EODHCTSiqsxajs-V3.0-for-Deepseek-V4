@@ -1,6 +1,6 @@
-# EODHCTSiqsxajs Unified OP 1.0
+# EODHCTSiqsxajs EODHCTSiqsxajs V3.0 中文版
 
-`EODHCTSiqsxajs-Unified-OP.json` 是一个统一的 SillyTavern 聊天补全（Chat Completion）预设。
+`EODHCTSiqsxajs-V3.0-zh.json` 是一个统一的 SillyTavern 聊天补全（Chat Completion）预设。
 
 默认最终回复为简体中文叙事正文。服务商返回的推理（reasoning）会被请求并与故事正文分开保存。无需使用正则表达式删除推理内容，也无需依赖完成确认句来定位故事的起始位置。
 

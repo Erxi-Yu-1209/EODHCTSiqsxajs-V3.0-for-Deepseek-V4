@@ -1,4 +1,4 @@
-# EODHCTSiqsxajs Unified OP 1.0
+# EODHCTSiqsxajs V3.0
 
 `EODHCTSiqsxajs-V3.0.json` is a single SillyTavern Chat Completion preset.
 
